@@ -1,7 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-kubernetes-component
+  name: tpd-k8s-test
+  annotations:
+    backstage.io/kubernetes-id: tpd-k8s-test
 spec:
   lifecycle: production
   owner: my-team
